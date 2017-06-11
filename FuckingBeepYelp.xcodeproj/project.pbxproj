@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B58A48229A533FB1AFD1D8 /* Pods_FuckingBeepYelpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B6704343432575978D27B4 /* Pods_FuckingBeepYelpTests.framework */; };
+		4FD36C43CF437CE60D81EF17 /* Pods_FuckingBeepYelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9563E2F1EADD9844995E9B /* Pods_FuckingBeepYelp.framework */; };
+		B72ACD446E0949B0E7714F8C /* Pods_FuckingBeepYelpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54020874C17D677A2EDBDD3D /* Pods_FuckingBeepYelpUITests.framework */; };
+		C51210981EE80CAF00F59E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51210971EE80CAF00F59E1A /* AppDelegate.swift */; };
+		C512109A1EE80CAF00F59E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51210991EE80CAF00F59E1A /* ViewController.swift */; };
+		C512109F1EE80CAF00F59E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C512109E1EE80CAF00F59E1A /* Assets.xcassets */; };
+		C51210A21EE80CAF00F59E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51210A01EE80CAF00F59E1A /* LaunchScreen.storyboard */; };
+		C51210AD1EE80CAF00F59E1A /* FuckingBeepYelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51210AC1EE80CAF00F59E1A /* FuckingBeepYelpTests.swift */; };
+		C51210B81EE80CAF00F59E1A /* FuckingBeepYelpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51210B71EE80CAF00F59E1A /* FuckingBeepYelpUITests.swift */; };
+		C51210C61EE80D2B00F59E1A /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51210C51EE80D2B00F59E1A /* Business.swift */; };
+		C51210C81EE80D6600F59E1A /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51210C71EE80D6600F59E1A /* YelpClient.swift */; };
+		C51210CB1EE80E5400F59E1A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51210C91EE80E5400F59E1A /* TableViewCell.swift */; };
+		C51210CC1EE80E5400F59E1A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51210CA1EE80E5400F59E1A /* TableViewCell.xib */; };
+		C51210CE1EE816F200F59E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51210CD1EE816F200F59E1A /* Main.storyboard */; };
+		C51459821EE8FEFA0045B444 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51459811EE8FEFA0045B444 /* FilterViewController.swift */; };
+		C51459841EE951DE0045B444 /* SwitchCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51459831EE951DE0045B444 /* SwitchCellTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C51210A91EE80CAF00F59E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C512108C1EE80CAF00F59E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C51210931EE80CAF00F59E1A;
+			remoteInfo = FuckingBeepYelp;
+		};
+		C51210B41EE80CAF00F59E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C512108C1EE80CAF00F59E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C51210931EE80CAF00F59E1A;
+			remoteInfo = FuckingBeepYelp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		106C6E3B2E3CAAC44ED94CB6 /* Pods-FuckingBeepYelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuckingBeepYelp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FuckingBeepYelp/Pods-FuckingBeepYelp.debug.xcconfig"; sourceTree = "<group>"; };
+		1A5C3DDEF68EC4E8445E4746 /* Pods-FuckingBeepYelpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuckingBeepYelpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FuckingBeepYelpUITests/Pods-FuckingBeepYelpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B9563E2F1EADD9844995E9B /* Pods_FuckingBeepYelp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuckingBeepYelp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B6704343432575978D27B4 /* Pods_FuckingBeepYelpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuckingBeepYelpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D86F0221E1158B092E14A05 /* Pods-FuckingBeepYelpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuckingBeepYelpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FuckingBeepYelpUITests/Pods-FuckingBeepYelpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54020874C17D677A2EDBDD3D /* Pods_FuckingBeepYelpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuckingBeepYelpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63457D75F0DF72030D627FBB /* Pods-FuckingBeepYelpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuckingBeepYelpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FuckingBeepYelpTests/Pods-FuckingBeepYelpTests.release.xcconfig"; sourceTree = "<group>"; };
+		79FF94F3C5E5FE132BC7D941 /* Pods-FuckingBeepYelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuckingBeepYelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FuckingBeepYelp/Pods-FuckingBeepYelp.release.xcconfig"; sourceTree = "<group>"; };
+		C51210941EE80CAF00F59E1A /* FuckingBeepYelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckingBeepYelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51210971EE80CAF00F59E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C51210991EE80CAF00F59E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C512109E1EE80CAF00F59E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C51210A11EE80CAF00F59E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C51210A31EE80CAF00F59E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51210A81EE80CAF00F59E1A /* FuckingBeepYelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuckingBeepYelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51210AC1EE80CAF00F59E1A /* FuckingBeepYelpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuckingBeepYelpTests.swift; sourceTree = "<group>"; };
+		C51210AE1EE80CAF00F59E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51210B31EE80CAF00F59E1A /* FuckingBeepYelpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuckingBeepYelpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51210B71EE80CAF00F59E1A /* FuckingBeepYelpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuckingBeepYelpUITests.swift; sourceTree = "<group>"; };
+		C51210B91EE80CAF00F59E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51210C51EE80D2B00F59E1A /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		C51210C71EE80D6600F59E1A /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		C51210C91EE80E5400F59E1A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C51210CA1EE80E5400F59E1A /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		C51210CD1EE816F200F59E1A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C51459811EE8FEFA0045B444 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		C51459831EE951DE0045B444 /* SwitchCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCellTableViewCell.swift; sourceTree = "<group>"; };
+		F402D51615F8F4782878F2FB /* Pods-FuckingBeepYelpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuckingBeepYelpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FuckingBeepYelpTests/Pods-FuckingBeepYelpTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51210911EE80CAF00F59E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD36C43CF437CE60D81EF17 /* Pods_FuckingBeepYelp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51210A51EE80CAF00F59E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B58A48229A533FB1AFD1D8 /* Pods_FuckingBeepYelpTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51210B01EE80CAF00F59E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72ACD446E0949B0E7714F8C /* Pods_FuckingBeepYelpUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582FE32AADF3B0542C79BEF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B9563E2F1EADD9844995E9B /* Pods_FuckingBeepYelp.framework */,
+				32B6704343432575978D27B4 /* Pods_FuckingBeepYelpTests.framework */,
+				54020874C17D677A2EDBDD3D /* Pods_FuckingBeepYelpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		978584CA1541D75EA1581D3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				106C6E3B2E3CAAC44ED94CB6 /* Pods-FuckingBeepYelp.debug.xcconfig */,
+				79FF94F3C5E5FE132BC7D941 /* Pods-FuckingBeepYelp.release.xcconfig */,
+				F402D51615F8F4782878F2FB /* Pods-FuckingBeepYelpTests.debug.xcconfig */,
+				63457D75F0DF72030D627FBB /* Pods-FuckingBeepYelpTests.release.xcconfig */,
+				4D86F0221E1158B092E14A05 /* Pods-FuckingBeepYelpUITests.debug.xcconfig */,
+				1A5C3DDEF68EC4E8445E4746 /* Pods-FuckingBeepYelpUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C512108B1EE80CAF00F59E1A = {
+			isa = PBXGroup;
+			children = (
+				C51210961EE80CAF00F59E1A /* FuckingBeepYelp */,
+				C51210AB1EE80CAF00F59E1A /* FuckingBeepYelpTests */,
+				C51210B61EE80CAF00F59E1A /* FuckingBeepYelpUITests */,
+				C51210951EE80CAF00F59E1A /* Products */,
+				978584CA1541D75EA1581D3F /* Pods */,
+				582FE32AADF3B0542C79BEF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C51210951EE80CAF00F59E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51210941EE80CAF00F59E1A /* FuckingBeepYelp.app */,
+				C51210A81EE80CAF00F59E1A /* FuckingBeepYelpTests.xctest */,
+				C51210B31EE80CAF00F59E1A /* FuckingBeepYelpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C51210961EE80CAF00F59E1A /* FuckingBeepYelp */ = {
+			isa = PBXGroup;
+			children = (
+				C51210971EE80CAF00F59E1A /* AppDelegate.swift */,
+				C51210991EE80CAF00F59E1A /* ViewController.swift */,
+				C51210C51EE80D2B00F59E1A /* Business.swift */,
+				C51210C71EE80D6600F59E1A /* YelpClient.swift */,
+				C51210C91EE80E5400F59E1A /* TableViewCell.swift */,
+				C51210CA1EE80E5400F59E1A /* TableViewCell.xib */,
+				C51210CD1EE816F200F59E1A /* Main.storyboard */,
+				C51459831EE951DE0045B444 /* SwitchCellTableViewCell.swift */,
+				C51459811EE8FEFA0045B444 /* FilterViewController.swift */,
+				C512109E1EE80CAF00F59E1A /* Assets.xcassets */,
+				C51210A01EE80CAF00F59E1A /* LaunchScreen.storyboard */,
+				C51210A31EE80CAF00F59E1A /* Info.plist */,
+			);
+			path = FuckingBeepYelp;
+			sourceTree = "<group>";
+		};
+		C51210AB1EE80CAF00F59E1A /* FuckingBeepYelpTests */ = {
+			isa = PBXGroup;
+			children = (
+				C51210AC1EE80CAF00F59E1A /* FuckingBeepYelpTests.swift */,
+				C51210AE1EE80CAF00F59E1A /* Info.plist */,
+			);
+			path = FuckingBeepYelpTests;
+			sourceTree = "<group>";
+		};
+		C51210B61EE80CAF00F59E1A /* FuckingBeepYelpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C51210B71EE80CAF00F59E1A /* FuckingBeepYelpUITests.swift */,
+				C51210B91EE80CAF00F59E1A /* Info.plist */,
+			);
+			path = FuckingBeepYelpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C51210931EE80CAF00F59E1A /* FuckingBeepYelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51210BC1EE80CAF00F59E1A /* Build configuration list for PBXNativeTarget "FuckingBeepYelp" */;
+			buildPhases = (
+				5E971A818796AC9FD7B5EE91 /* [CP] Check Pods Manifest.lock */,
+				C51210901EE80CAF00F59E1A /* Sources */,
+				C51210911EE80CAF00F59E1A /* Frameworks */,
+				C51210921EE80CAF00F59E1A /* Resources */,
+				12FDCE6A656D37F1FC05A9EC /* [CP] Embed Pods Frameworks */,
+				D5C625702F5BC90B8F798169 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuckingBeepYelp;
+			productName = FuckingBeepYelp;
+			productReference = C51210941EE80CAF00F59E1A /* FuckingBeepYelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C51210A71EE80CAF00F59E1A /* FuckingBeepYelpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51210BF1EE80CAF00F59E1A /* Build configuration list for PBXNativeTarget "FuckingBeepYelpTests" */;
+			buildPhases = (
+				6E3E74E5A2D7717BDBC3099A /* [CP] Check Pods Manifest.lock */,
+				C51210A41EE80CAF00F59E1A /* Sources */,
+				C51210A51EE80CAF00F59E1A /* Frameworks */,
+				C51210A61EE80CAF00F59E1A /* Resources */,
+				25A34D0C9D2CFF6F65E0CD48 /* [CP] Embed Pods Frameworks */,
+				673222D31B81C9AE9058D6D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C51210AA1EE80CAF00F59E1A /* PBXTargetDependency */,
+			);
+			name = FuckingBeepYelpTests;
+			productName = FuckingBeepYelpTests;
+			productReference = C51210A81EE80CAF00F59E1A /* FuckingBeepYelpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C51210B21EE80CAF00F59E1A /* FuckingBeepYelpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51210C21EE80CAF00F59E1A /* Build configuration list for PBXNativeTarget "FuckingBeepYelpUITests" */;
+			buildPhases = (
+				6EEE1D10D32456A4B5BD010F /* [CP] Check Pods Manifest.lock */,
+				C51210AF1EE80CAF00F59E1A /* Sources */,
+				C51210B01EE80CAF00F59E1A /* Frameworks */,
+				C51210B11EE80CAF00F59E1A /* Resources */,
+				E7CCF851649C6F382ACF4387 /* [CP] Embed Pods Frameworks */,
+				245003AD9A5F3F87F601A2D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C51210B51EE80CAF00F59E1A /* PBXTargetDependency */,
+			);
+			name = FuckingBeepYelpUITests;
+			productName = FuckingBeepYelpUITests;
+			productReference = C51210B31EE80CAF00F59E1A /* FuckingBeepYelpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C512108C1EE80CAF00F59E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Taku Tran";
+				TargetAttributes = {
+					C51210931EE80CAF00F59E1A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					C51210A71EE80CAF00F59E1A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C51210931EE80CAF00F59E1A;
+					};
+					C51210B21EE80CAF00F59E1A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C51210931EE80CAF00F59E1A;
+					};
+				};
+			};
+			buildConfigurationList = C512108F1EE80CAF00F59E1A /* Build configuration list for PBXProject "FuckingBeepYelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C512108B1EE80CAF00F59E1A;
+			productRefGroup = C51210951EE80CAF00F59E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C51210931EE80CAF00F59E1A /* FuckingBeepYelp */,
+				C51210A71EE80CAF00F59E1A /* FuckingBeepYelpTests */,
+				C51210B21EE80CAF00F59E1A /* FuckingBeepYelpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C51210921EE80CAF00F59E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51210A21EE80CAF00F59E1A /* LaunchScreen.storyboard in Resources */,
+				C51210CC1EE80E5400F59E1A /* TableViewCell.xib in Resources */,
+				C512109F1EE80CAF00F59E1A /* Assets.xcassets in Resources */,
+				C51210CE1EE816F200F59E1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51210A61EE80CAF00F59E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51210B11EE80CAF00F59E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12FDCE6A656D37F1FC05A9EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuckingBeepYelp/Pods-FuckingBeepYelp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		245003AD9A5F3F87F601A2D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuckingBeepYelpUITests/Pods-FuckingBeepYelpUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25A34D0C9D2CFF6F65E0CD48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuckingBeepYelpTests/Pods-FuckingBeepYelpTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E971A818796AC9FD7B5EE91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		673222D31B81C9AE9058D6D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuckingBeepYelpTests/Pods-FuckingBeepYelpTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E3E74E5A2D7717BDBC3099A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EEE1D10D32456A4B5BD010F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C625702F5BC90B8F798169 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuckingBeepYelp/Pods-FuckingBeepYelp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7CCF851649C6F382ACF4387 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuckingBeepYelpUITests/Pods-FuckingBeepYelpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C51210901EE80CAF00F59E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51459821EE8FEFA0045B444 /* FilterViewController.swift in Sources */,
+				C51210CB1EE80E5400F59E1A /* TableViewCell.swift in Sources */,
+				C51459841EE951DE0045B444 /* SwitchCellTableViewCell.swift in Sources */,
+				C51210C81EE80D6600F59E1A /* YelpClient.swift in Sources */,
+				C51210C61EE80D2B00F59E1A /* Business.swift in Sources */,
+				C512109A1EE80CAF00F59E1A /* ViewController.swift in Sources */,
+				C51210981EE80CAF00F59E1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51210A41EE80CAF00F59E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51210AD1EE80CAF00F59E1A /* FuckingBeepYelpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51210AF1EE80CAF00F59E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51210B81EE80CAF00F59E1A /* FuckingBeepYelpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C51210AA1EE80CAF00F59E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C51210931EE80CAF00F59E1A /* FuckingBeepYelp */;
+			targetProxy = C51210A91EE80CAF00F59E1A /* PBXContainerItemProxy */;
+		};
+		C51210B51EE80CAF00F59E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C51210931EE80CAF00F59E1A /* FuckingBeepYelp */;
+			targetProxy = C51210B41EE80CAF00F59E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C51210A01EE80CAF00F59E1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51210A11EE80CAF00F59E1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C51210BA1EE80CAF00F59E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C51210BB1EE80CAF00F59E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C51210BD1EE80CAF00F59E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106C6E3B2E3CAAC44ED94CB6 /* Pods-FuckingBeepYelp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FuckingBeepYelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.FuckingBeepYelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C51210BE1EE80CAF00F59E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FF94F3C5E5FE132BC7D941 /* Pods-FuckingBeepYelp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FuckingBeepYelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.FuckingBeepYelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C51210C01EE80CAF00F59E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F402D51615F8F4782878F2FB /* Pods-FuckingBeepYelpTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FuckingBeepYelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.FuckingBeepYelpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuckingBeepYelp.app/FuckingBeepYelp";
+			};
+			name = Debug;
+		};
+		C51210C11EE80CAF00F59E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63457D75F0DF72030D627FBB /* Pods-FuckingBeepYelpTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FuckingBeepYelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.FuckingBeepYelpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuckingBeepYelp.app/FuckingBeepYelp";
+			};
+			name = Release;
+		};
+		C51210C31EE80CAF00F59E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D86F0221E1158B092E14A05 /* Pods-FuckingBeepYelpUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FuckingBeepYelpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.FuckingBeepYelpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FuckingBeepYelp;
+			};
+			name = Debug;
+		};
+		C51210C41EE80CAF00F59E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5C3DDEF68EC4E8445E4746 /* Pods-FuckingBeepYelpUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FuckingBeepYelpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.FuckingBeepYelpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FuckingBeepYelp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C512108F1EE80CAF00F59E1A /* Build configuration list for PBXProject "FuckingBeepYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51210BA1EE80CAF00F59E1A /* Debug */,
+				C51210BB1EE80CAF00F59E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51210BC1EE80CAF00F59E1A /* Build configuration list for PBXNativeTarget "FuckingBeepYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51210BD1EE80CAF00F59E1A /* Debug */,
+				C51210BE1EE80CAF00F59E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51210BF1EE80CAF00F59E1A /* Build configuration list for PBXNativeTarget "FuckingBeepYelpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51210C01EE80CAF00F59E1A /* Debug */,
+				C51210C11EE80CAF00F59E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51210C21EE80CAF00F59E1A /* Build configuration list for PBXNativeTarget "FuckingBeepYelpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51210C31EE80CAF00F59E1A /* Debug */,
+				C51210C41EE80CAF00F59E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C512108C1EE80CAF00F59E1A /* Project object */;
+}
